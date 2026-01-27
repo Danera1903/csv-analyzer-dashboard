@@ -1,0 +1,20 @@
+data,categoria,descricao,valor,tipo,pagamento,local
+2025-12-01,Alimentação,Supermercado Pão de Açúcar,-428.90,saída,Cartão de crédito,
+2025-12-02,Transporte,Uber ida e volta trabalho,-67.80,saída,Cartão de débito,
+2025-12-03,Salário,Salário mensal referência dez/25,7850.00,entrada,Transferência,
+2025-12-03,Lazer,Cinema + pipoca,-84.50,saída,Dinheiro,Cinemark
+2025-12-04,Contas,Conta de luz,-215.67,saída,PIX,
+2025-12-05,Alimentação,Almoço no shopping,-52.00,saída,Dinheiro,
+2025-12-06,Transporte,Recarga Bilhete Único,-150.00,saída,Dinheiro,
+2025-12-07,Saúde,Consulta com dermatologista,-380.00,saída,Cartão de crédito,
+2025-12-08,Alimentação,Ifood jantar,-68.90,saída,Cartão de crédito,
+2025-12-10,Contas,Internet + TV a cabo,-189.90,saída,Boleto,
+2025-12-12,Lazer,Bar com amigos,-143.00,saída,Dinheiro,
+2025-12-15,Salário,13º salário (parcela única),4200.00,entrada,Transferência,
+2025-12-16,Compras,roupas na Renner,-347.89,saída,Cartão de crédito,
+2025-12-18,Transporte,Manutenção da moto (óleo + revisão),-490.00,saída,PIX,
+2025-12-20,Alimentação,Supermercado mês de janeiro,-396.45,saída,Cartão de débito,
+2025-12-22,Outros,Presente de aniversário da mãe,-179.90,saída,Cartão de crédito,Loja Americanas
+2025-12-25,Lazer,Churrasco de natal em casa,-312.60,saída,Dinheiro,
+2025-12-28,Contas,Aluguel,-1800.00,saída,PIX,
+2025-12-30,Investimentos,Aporte Tesouro Selic,+1200.00,entrada,Transferência,

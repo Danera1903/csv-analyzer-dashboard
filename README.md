@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# 📊 CSV Analyzer Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ferramenta web para análise e visualização de dados CSV, desenvolvida em React com foco em análise estatística e visualização interativa.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css)
+![Recharts](https://img.shields.io/badge/Recharts-2.x-8884D8)
 
-In the project directory, you can run:
+## 📋 Sobre o Projeto
 
-### `npm start`
+Dashboard interativo para análise de dados em formato CSV, permitindo upload de arquivos, cálculo automático de estatísticas descritivas e geração de visualizações gráficas. Desenvolvido como parte do portfólio pessoal combinando conhecimentos em **Biomedicina** e **Sistemas de Informação**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✅ **Upload de arquivos CSV** com validação de tipo e tamanho
+- ✅ **Detecção automática** de colunas numéricas vs texto
+- ✅ **Estatísticas descritivas** completas:
+  - Média, Mediana, Mínimo, Máximo
+  - Desvio Padrão
+  - Contagem de valores únicos
+- ✅ **Visualizações interativas:**
+  - Gráfico de barras para dados numéricos
+  - Gráfico de pizza para distribuição de categorias
+- ✅ **Tabela de dados** com preview das primeiras 10 linhas
+- ✅ **Interface responsiva** e moderna
+- ✅ **Tratamento de erros** robusto
 
-### `npm test`
+## 🎯 Casos de Uso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Análise de dados financeiros (receitas, despesas)
+- Dados de pesquisas e questionários
+- Resultados de experimentos laboratoriais
+- Dados de vendas e e-commerce
+- Análise exploratória de qualquer dataset CSV
 
-### `npm run build`
+## 🚀 Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório:
+```bash
+git clone https://github.com/Danera1903/csv-analyzer-dashboard.git
+```
 
-### `npm run eject`
+2. Entre na pasta do projeto:
+```bash
+cd csv-analyzer-dashboard
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instale as dependências:
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Execute o projeto:
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O aplicativo abrirá automaticamente em `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💡 Exemplo de Uso
 
-## Learn More
+1. Prepare um arquivo CSV com seus dados
+2. Clique na área de upload ou arraste o arquivo
+3. Visualize automaticamente:
+   - Estatísticas por coluna
+   - Gráficos interativos
+   - Tabela com os dados
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Exemplo de CSV:
+```csv
+data,categoria,valor,tipo
+2025-01-01,Alimentação,150.50,saída
+2025-01-02,Salário,5000.00,entrada
+2025-01-03,Transporte,45.00,saída
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Tecnologias Utilizadas
 
-### Code Splitting
+- **React** - Biblioteca JavaScript para interfaces
+- **Tailwind CSS** - Framework CSS utilitário
+- **Recharts** - Biblioteca de gráficos para React
+- **PapaParse** - Parser robusto de CSV
+- **Lucide React** - Ícones modernos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📊 Estatísticas Calculadas
 
-### Analyzing the Bundle Size
+### Para Colunas Numéricas:
+- **Count**: Quantidade de valores
+- **Mean**: Média aritmética
+- **Median**: Valor central
+- **Min/Max**: Menor e maior valor
+- **Std Dev**: Desvio padrão (dispersão dos dados)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Para Colunas de Texto:
+- **Count**: Quantidade de valores
+- **Unique**: Quantidade de valores únicos
+- **Sample Values**: Exemplos dos valores encontrados
 
-### Making a Progressive Web App
+## 📝 Estrutura do Projeto
+```
+src/
+├── App.js          # Componente principal com toda a lógica
+├── index.js        # Ponto de entrada da aplicação
+└── index.css       # Configuração do Tailwind
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎓 Sobre o Desenvolvedor
 
-### Advanced Configuration
+Projeto desenvolvido por Daniel, graduado em **Biomedicina** e graduando em **Sistemas de Informação**, com interesse em análise de dados, visualização e desenvolvimento de ferramentas para ciência de dados.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 Licença
 
-### Deployment
+Este projeto está sob a licença MIT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contribuições
 
-### `npm run build` fails to minify
+Contribuições são bem-vindas! Sinta-se à vontade para:
+- Reportar bugs
+- Sugerir novas funcionalidades
+- Enviar pull requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+⭐ Se este projeto foi útil para você, considere dar uma estrela!
