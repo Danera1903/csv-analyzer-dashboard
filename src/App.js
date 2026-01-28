@@ -100,7 +100,7 @@ const CSVAnalyzer = () => {
       },
       error: (err) => {
         console.error('Erro ao processar CSV:', err);
-        setError('Error processing CSV: ${err.message}');
+        setError(`Error processing CSV: ${err.message}`);
       }
     });
   };
