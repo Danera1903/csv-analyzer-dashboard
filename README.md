@@ -1,5 +1,7 @@
 # 📊 CSV Analyzer Dashboard
 
+**🌐 [Acesse o projeto online](https://csv-analyzer-dashboard-5mg8skczn-danera1903s-projects.vercel.app)**
+
 Ferramenta web para análise e visualização de dados CSV, desenvolvida em React com foco em análise estatística e visualização interativa.
 
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
